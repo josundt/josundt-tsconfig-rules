@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ES2017"
+    ],
+    "moduleResolution": "Node",
+    "target": "ES2017"
+  }
+}
