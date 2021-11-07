@@ -20,17 +20,8 @@ Add this package as a dependency of your project, and ensure that your project's
 
 ## Web projects
 
-### A - MAUI projects
-For projects using Aurelia and MAUI with Webpack:  
-In the top of your project's tsconfig.json file, add:
-```json
-{
-    "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.web.maui.json"
-}
-```
-
-### B - Other webpack projects
-For projects using Aurelia and MAUI with Webpack:  
+### A - For webpack projects
+For web projects with Webpack:  
 In the top of your project's tsconfig.json file, add:
 ```json
 {
@@ -38,7 +29,7 @@ In the top of your project's tsconfig.json file, add:
 }
 ```
 
-### C - AMD projects
+### B - AMD projects
 In the top of your project's tsconfig.json file, add:
 ```json
 {
@@ -57,19 +48,19 @@ Works in both node and web, and the  compiled entrypoint file path is set in the
 }
 ```
 
-2. **ES5 target with ES2015 modules**
-Compiles to ES5 but uses ES2015 module import syntax. The compiled entrypoint file path is set in the npm package's ***module*** property in package.json. *PS! Webpack prefers this entrypoint (module instead of main) in the bundle module dependency crawler*:
+2. **ES5 target with ES modules**
+Compiles to ES5 but uses ES2017 module import syntax. The compiled entrypoint file path is set in the npm package's ***module*** property in package.json. *PS! Webpack prefers this entrypoint (module instead of main) in the bundle module dependency crawler*:
 ```json
 {
     "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.web.esm.json"
 }
 ```
 
-3. **ES2015 target with ES2015 modules**
-Compiles to ES2015 and uses ES2015 module import syntax. The compiled entrypoint file path is set in the npm package's ***es2015*** property in package.json. *This is for future fully ES2015 and ES2015 modules compliant browsers/node engines.**
+3. **ES2017 target with ES modules**
+Compiles to ES2017 and uses ES2017 module import syntax. The compiled entrypoint file path is set in the npm package's ***ES2017*** property in package.json. *This is for future fully ES2017 and ES2017 modules compliant browsers/node engines.**
 ```json
 {
-    "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.es2015.esm.json"
+    "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.ES2017.esm.json"
 }
 ```
 
