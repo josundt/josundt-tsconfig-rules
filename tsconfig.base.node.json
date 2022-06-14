@@ -2,11 +2,9 @@
   "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "lib": [
-      "ES2019"
+      "ES2021"
     ],
-    "allowSyntheticDefaultImports": false,
-    "module": "CommonJS",
-    "moduleResolution": "Node",
-    "target": "ES2019"
+    "target": "ES2021",
+    "moduleResolution": "Node"
   }
 }

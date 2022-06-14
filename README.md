@@ -1,6 +1,18 @@
 # @josundt/tsconfig-rules
 
 CHANGES:
+- V4.5.x:   Removed ES5 configs
+- V4.5.x:   `"esModuleInterop": true` is set to default for better ES Module interoperability.  
+            ___NB!__ node_modules namespace import syntax must be changed from..._
+    ```javascript
+    import * as foo from "my-package";
+    ```
+    ...to...
+    ```javascript
+    import foo from "my-package";
+    ```
+
+             
 - v4.3.x:   Added `"noImplicitOverride": true` (to all rules).  
             When extending a super class and overriding methods or fields, the new TS 4.3 `override` keyword is required.
 

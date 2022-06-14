@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.base.xplat.json",
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext"
+  }
+}

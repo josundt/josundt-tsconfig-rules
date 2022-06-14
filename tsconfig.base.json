@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
     "allowUnreachableCode": false,
-    "allowSyntheticDefaultImports": true,
     "allowUnusedLabels": false,
+    "esModuleInterop": true,
     "exactOptionalPropertyTypes": false,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,

@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.base.xplat.json",
+  "compilerOptions": {
+    "module": "ESNext"
+  }
+}
