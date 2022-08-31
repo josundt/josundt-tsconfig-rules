@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "exactOptionalPropertyTypes": false,
     "experimentalDecorators": true,
-    "forceConsistentCasingInFileNames": false, // needed to switch off in TypeScript 4.8.2 because of errors inside node_modules (especially for aurelia-framework package)
+    "forceConsistentCasingInFileNames": true, // PS! With TypeScript 4.8.2 on windows, it may be problematic having mixed case paths - use all lower folder names for git repo
     "importHelpers": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
