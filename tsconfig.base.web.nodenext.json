@@ -2,6 +2,7 @@
   "extends": "./tsconfig.base.web.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    "customConditions": ["browser"]
   }
 }

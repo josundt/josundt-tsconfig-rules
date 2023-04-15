@@ -1,6 +1,8 @@
 # @josundt/tsconfig-rules
 
 CHANGES:
+- V4.7.x:   Use module/moduleResolution NodeNext for tsconfig.base.json
+- V4.7.x:   target ES2019 for web projects
 - V4.5.x:   Removed ES5 configs
 - V4.5.x:   `"esModuleInterop": true` is set to default for better ES Module interoperability.  
             ___NB!__ node_modules namespace import syntax must be changed from..._
@@ -26,7 +28,8 @@ CHANGES:
 
 Contains the standard base compiler options/rules to be used in all TypeScript source code in different projects.
 
-Add this package as a dependency of your project, and ensure that your project's *tsconfig.json* file extends the appropriate file based on your project type:
+Add this package as a dependency of your project, and ensure that your project's *tsconfig.json* file extends the appropriate
+file based on your project type:
 
 *PS! These compiler settings require that you have added the **"tslib"** package added as a development depdency of your project.*
 
@@ -72,7 +75,7 @@ Compiles to ES5 but uses ES2017 module import syntax. The compiled entrypoint fi
 Compiles to ES2017 and uses ES2017 module import syntax. The compiled entrypoint file path is set in the npm package's ***ES2017*** property in package.json. *This is for future fully ES2017 and ES2017 modules compliant browsers/node engines.**
 ```json
 {
-    "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.ES2017.esm.json"
+    "extends": "./node_modules/@josundt/tsconfig-rules/tsconfig.base.es2017.esm.json"
 }
 ```
 

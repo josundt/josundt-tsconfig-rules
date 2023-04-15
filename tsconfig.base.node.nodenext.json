@@ -2,6 +2,7 @@
   "extends": "./tsconfig.base.node.json",
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "NodeNext",
+    "customConditions": ["node"]
   }
 }
