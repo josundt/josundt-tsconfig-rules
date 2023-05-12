@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.xplat.json",
   "compilerOptions": {
+    "verbatimModuleSyntax": false,
     "module": "UMD"
   }
 }

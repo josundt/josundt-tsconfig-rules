@@ -1,6 +1,6 @@
 {
   "name": "@josundt/tsconfig-rules",
-  "version": "5.0.5",
+  "version": "5.0.9",
   "description": "Common TypeScript compiler rules for all josundt projects",
   "author": {
     "name": "Jørn Andre Sundt",

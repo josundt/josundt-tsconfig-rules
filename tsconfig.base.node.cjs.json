@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.base.node.json",
   "compilerOptions": {
-    "module": "CommonJS"
+    "module": "CommonJS",
+    "verbatimModuleSyntax": false
   }
 }
