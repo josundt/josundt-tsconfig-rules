@@ -1,6 +1,6 @@
 {
-    "extends": "./tsconfig.base.web.json",
-    "compilerOptions": {
-        "module": "umd"
-    }
+  "extends": "./tsconfig.base.web.json",
+  "compilerOptions": {
+    "module": "umd"
+  }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@josundt/tsconfig-rules",
-  "version": "5.0.9",
+  "version": "5.2.2",
   "description": "Common TypeScript compiler rules for all josundt projects",
   "author": {
     "name": "Jørn Andre Sundt",
@@ -19,7 +19,7 @@
   "license": "ISC",
   "main": "index.js",
   "peerDependencies": {
-    "typescript": ">=5.0.4",
-    "tslib": ">=2.5.0"
+    "typescript": ">=5.2.2",
+    "tslib": ">=2.6.2"
   }
 }

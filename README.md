@@ -1,6 +1,7 @@
 # @josundt/tsconfig-rules
 
 CHANGES:
+- v5.2.x:   Change lib from ES2019 to ES2022, target from ES2019 to ES2021 for both Web and Node
 - V4.7.x:   Use module/moduleResolution NodeNext for tsconfig.base.json
 - V4.7.x:   target ES2019 for web projects
 - V4.5.x:   Removed ES5 configs

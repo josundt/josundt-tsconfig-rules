@@ -1,8 +1,7 @@
 {
-    "extends": "../tsconfig.base.json",
-    "compilerOptions": {
-        "allowSyntheticDefaultImports": false,
-        "target": "ES5",
-
-    }
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": false,
+    "target": "ES5"
+  }
 }
