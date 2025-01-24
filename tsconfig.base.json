@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowImportingTsExtensions": false,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "esModuleInterop": true,
@@ -14,10 +15,13 @@
     "noImplicitThis": true,
     "noPropertyAccessFromIndexSignature": true,
     "noUncheckedIndexedAccess": false,
-    "noUnusedLocals": true,
+    "noUncheckedSideEffectImports": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": false,
     "preserveConstEnums": true,
+    "rewriteRelativeImportExtensions": false,
     "strictBindCallApply": true,
+    "strictBuiltinIteratorReturn": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
